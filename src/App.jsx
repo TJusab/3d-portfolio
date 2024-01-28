@@ -4,7 +4,7 @@ import { About, Contact, Experience, Hero, Navbar, Tech, Works, PetalsCanvas } f
 const App = () => {
 
   return (
-    <BrowserRouter basename='3d-portfolio'>
+    <BrowserRouter basename={`${import.meta.env.BASE_URL}`}>
       <div className='relative z-0 bg-primary'>
         <div className="bg-[url('/src/assets/h.png')] bg-cover bg-no-repeat bg-center">
           <Navbar />
