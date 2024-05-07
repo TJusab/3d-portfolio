@@ -1,8 +1,20 @@
-# React + Vite
+# Portfolio Website created using React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+3D fully interactive website with animations built in less than 48 hours to showcase my past experiences, interests and projects.
 
-Currently, two official plugins are available:
+## Technologies Used
+- ReactJS
+- Three.js
+- Git / GitHub
+- EmailJS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Click here to visit the website: https://3d-portfolio-tjusab.vercel.app/
+
+## HomePage
+<img width="1440" alt="Screenshot 2024-05-07 at 6 58 19 PM" src="https://github.com/TJusab/3d-portfolio/assets/78049425/f37f84ff-6909-4875-bf91-76d197125ea6">
+
+## Overview
+<img width="1440" alt="Screenshot 2024-05-07 at 6 59 16 PM" src="https://github.com/TJusab/3d-portfolio/assets/78049425/0d93d584-6bab-4a61-b907-ac2d087d4ab3">
+
+## Send me an email!
+<img width="1440" alt="Screenshot 2024-05-07 at 6 59 58 PM" src="https://github.com/TJusab/3d-portfolio/assets/78049425/e36f2189-c28d-4df8-b340-43b6b9b7f2b4">
