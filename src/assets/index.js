@@ -8,6 +8,7 @@ import linkedin from "./linkedin.png";
 import artstation from "./artstation.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import fithub from './fithub.png';
 import assetplus from './assetplus.png';
 import questbit from './questbit.png';
 import matrix from './matrix.png';
@@ -26,6 +27,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 
 import bell from "./company/bell.png";
+import ericsson from "./company/ericsson.png";
 
 
 export {
@@ -39,6 +41,7 @@ export {
   artstation,
   menu,
   close,
+  fithub,
   assetplus,
   questbit,
   matrix,
@@ -54,5 +57,6 @@ export {
   typescript,
   java,
   python,
-  bell
+  bell,
+  ericsson
 };

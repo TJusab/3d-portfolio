@@ -2,6 +2,7 @@ import {
     mobile,
     backend,
     creator,
+    fithub,
     assetplus,
     questbit,
     matrix,
@@ -18,7 +19,8 @@ import {
     docker,
     java,
     python,
-    bell
+    bell,
+    ericsson,
   } from "../assets";
   
   export const navLinks = [
@@ -109,7 +111,7 @@ import {
   const experiences = [
     {
       title: "Software Developer Intern",
-      company_name: "Bell Canada",
+      company_name: "Bell Media - Sports Data Team",
       icon: bell,
       iconBg: "#ECCFD1",
       date: "May 2023 - August 2023",
@@ -120,9 +122,40 @@ import {
         "Integrated essential third-party tools such as SonarQube into the CI/CD pipelines, contributing to elevated code quality and maintainability across multiple projects.",
       ],
     },
+    {
+      title: "Software Developer Intern",
+      company_name: "Ericsson - POC Innovation Team",
+      icon: ericsson,
+      iconBg: "#ECCFD1",
+      date: "May 2024 - August 2024",
+      points: [
+
+      ]
+    }
   ];
   
   const projects = [
+    {
+      name: "FitHub",
+      description:
+      "Full-stack application with fully functional backend and database that allows customers, instructors and owners of a sport center to register for courses, manage employees (and more!) according to their specific accounts permissions.",
+      tags: [
+        {
+          name: "vue",
+          color: "green-text",
+        },
+        {
+          name: "springboot",
+          color: "blue-text",
+        },
+        {
+          name: "postgresql",
+          color: "orange-text",
+        }
+      ],
+      image: fithub,
+      source_code_link: "https://github.com/McGill-ECSE321-Winter2024/FitHub",
+    },
     {
       name: "AssetPlus",
       description:
@@ -130,11 +163,11 @@ import {
       tags: [
         {
           name: "java",
-          color: "blue-text-gradient",
+          color: "blue-text",
         },
         {
           name: "java-fx",
-          color: "pink-text-gradient",
+          color: "pink-text",
         },
       ],
       image: assetplus,
@@ -148,11 +181,11 @@ import {
       tags: [
         {
           name: "java",
-          color: "blue-text-gradient",
+          color: "blue-text",
         },
         {
           name: "java-fx",
-          color: "pink-text-gradient",
+          color: "pink-text",
         },
       ],
       image: matrix,
@@ -165,12 +198,16 @@ import {
       tags: [
         {
           name: "java",
-          color: "blue-text-gradient",
+          color: "blue-text",
         },
         {
           name: "react-native",
-          color: "green-text-gradient",
+          color: "purple-text",
         },
+        {
+          name: "firebase",
+          color: "orange-text",
+        }
       ],
       image: questbit,
       source_code_link: "https://github.com/TJusab/QuestBit",
