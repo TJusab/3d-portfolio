@@ -138,6 +138,23 @@ import {
   
   const projects = [
     {
+      name: "QuestBit (in progress)",
+      description:
+        "This is a mobile app (IOS / Android) that helps people living or working in the same space to assign common tasks and chores to each other.",
+      tags: [
+        {
+          name: "react-native",
+          color: "purple-text",
+        },
+        {
+          name: "appwrite",
+          color: "orange-text",
+        }
+      ],
+      image: questbit,
+      source_code_link: "https://github.com/TJusab/QuestBit-v2",
+    },
+    {
       name: "FitHub",
       description:
       "Full-stack application with fully functional backend and database that allows customers, instructors and owners of a sport center to register for courses, manage employees (and more!) according to their specific accounts permissions.",
@@ -157,23 +174,6 @@ import {
       ],
       image: fithub,
       source_code_link: "https://github.com/McGill-ECSE321-Winter2024/FitHub",
-    },
-    {
-      name: "QuestBit (in progress)",
-      description:
-        "This is a mobile app (IOS / Android) that helps people living or working in the same space to assign common tasks and chores to each other.",
-      tags: [
-        {
-          name: "react-native",
-          color: "purple-text",
-        },
-        {
-          name: "appwrite",
-          color: "orange-text",
-        }
-      ],
-      image: questbit,
-      source_code_link: "https://github.com/TJusab/QuestBit-v2",
     },
     {
       name: "AssetPlus",
