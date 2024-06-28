@@ -1,11 +1,11 @@
-import React from 'react';
-import Tilt from 'react-parallax-tilt';
-import { motion } from 'framer-motion';
+import React from "react";
+import Tilt from "react-parallax-tilt";
+import { motion } from "framer-motion";
 
-import { styles } from '../styles';
-import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
-import { SectionWrapper } from '../hoc';
+import { styles } from "../styles";
+import { services } from "../constants";
+import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -18,18 +18,20 @@ const ServiceCard = ({ index, title, icon }) => {
           options={{
             max: 45,
             scale: 1,
-            speed: 450
+            speed: 450,
           }}
           className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px]
           flex justify-evenly items-center flex-col"
         >
-          <img src={icon} alt={title} className="w-16 h-16 object-contain"/>
-          <h3 className="text-white text-[20px] font-bold text-center">{title}</h3>
+          <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
-  )
-}
+  );
+};
 
 const About = () => {
   return (
@@ -38,24 +40,26 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
+
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
       >
-        I am a curious and enthusiastic software engineering student at McGill University. I especially love
-        to create innovative and captivating user experiences in web development. I also have a strong interest in
-        ML and AI. Other than coding, I enjoy creating 3D art and combining my 3D models with my coding projects is my new
-        favorite thing to do!
+        I am a curious and enthusiastic software engineering student at McGill
+        University. I especially love to create innovative and captivating user
+        experiences in web development. I also have a strong interest in mobile
+        development and ML. Other than coding, I enjoy creating 3D art and
+        combining my 3D models with my coding projects is my new favorite thing
+        to do!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service}/>
+          <ServiceCard key={service.title} index={index} {...service} />
         ))}
-
       </div>
     </>
-  )
-}
+  );
+};
 
 export default SectionWrapper(About, "about");
