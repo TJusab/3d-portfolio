@@ -13,15 +13,7 @@ const Hero = () => {
               <TypeWriter
                 options={{ cursor: "" }}
                 onInit={(typewriter) => {
-                  typewriter
-                    .typeString("Hi, I'm Tayba !")
-                    .changeDeleteSpeed(500)
-                    .deleteChars(1)
-                    .typeString(" :)")
-                    .pauseFor(500)
-                    .changeDeleteSpeed(50)
-                    .deleteChars(9)
-                    .start();
+                  typewriter.typeString("Hi, I'm").start();
                 }}
               />
             </div>
@@ -29,7 +21,7 @@ const Hero = () => {
               <TypeWriter
                 options={{ cursor: "" }}
                 onInit={(typewriter) => {
-                  typewriter.pauseFor(6000).typeString(" Tayba").start();
+                  typewriter.pauseFor(1000).typeString(" Tayba").start();
                 }}
               />
             </div>
@@ -39,7 +31,7 @@ const Hero = () => {
               options={{ cursor: "" }}
               onInit={(typewriter) => {
                 typewriter
-                  .pauseFor(7000)
+                  .pauseFor(2500)
                   .changeDelay(50)
                   .typeString("I am a 2nd Year")
                   .pauseFor(500)
