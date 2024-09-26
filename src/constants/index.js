@@ -115,20 +115,6 @@ import {
   const experiences = [
     {
       title: "Software Developer Intern",
-      company_name: "Bell Media - Sports Data Team",
-      icon: bell,
-      iconBg: "#ECCFD1",
-      date: "May 2023 - August 2023",
-      points: [
-        "Led the design and development of an internal scheduling tool using Java SpringBoot, achieving seamless integration with SQL databases to store and retrieve user information and scheduling data for 50+ users.",
-        "Transitioned the existing monolithic Java SpringBoot backend into microservices developed in TypeScript and deployed as AWS Lambda functions, improving game and player data processing speed by 30% and enhancing system stability.",
-        "Implemented automated unit testing for the TypeScript-based parser using Jest and Vitest, enhancing software reliability and reducing errors through comprehensive test coverage.",
-        "Integrated SonarQube into CI/CD pipelines, elevating code quality and maintainability across 7 major projects, facilitating improved development efficiency for 20+ developers.",
-        "Conducted workshops and created thorough documentation to guide the development team in TypeScript testing and the AWS Lambda-based microservices architecture, ensuring smooth knowledge transfer and project continuity post-internship.",
-      ],
-    },
-    {
-      title: "Software Developer Intern",
       company_name: "Ericsson - POC Innovation Team",
       icon: ericsson,
       iconBg: "#ECCFD1",
@@ -137,6 +123,18 @@ import {
         "Engineered a callback feature for consumer to business calls using JavaScript for the frontend and Java for the backend, enhancing user experience by enabling seamless communication and follow-up interactions.",
         "Developed a specific use case demo for a 3D asset sharing feature: allowing business to send 3D models of their products to their customers to facilitate visual guidance for troubleshooting connectivity issues.",
       ]
+    },
+    {
+      title: "Software Developer Intern",
+      company_name: "Bell Media - Sports Data Team",
+      icon: bell,
+      iconBg: "#ECCFD1",
+      date: "May 2023 - August 2023",
+      points: [
+        "Led the design and development of an internal scheduling tool using Java SpringBoot, achieving seamless integration with SQL databases to store and retrieve user information and scheduling data for 50+ users.",
+        "Transitioned the existing monolithic Java SpringBoot backend into microservices developed in TypeScript and deployed as AWS Lambda functions, improving data processing speed by 30%.",
+        "Conducted workshops and created documentation to guide the development team in TypeScript testing and the AWS Lambda-based microservices architecture, ensuring project continuity post-internship.",
+      ],
     }
   ];
   
