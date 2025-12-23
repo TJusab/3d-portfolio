@@ -33,10 +33,10 @@ const Hero = () => {
                 typewriter
                   .pauseFor(2500)
                   .changeDelay(50)
-                  .typeString("I am a 2nd Year")
+                  .typeString("I am a 3rd Year")
                   .pauseFor(500)
                   .deleteChars(8)
-                  .typeString("3rd Year Software Engineering Student.")
+                  .typeString("4th Year Software Engineering Student.")
                   .start();
               }}
             />

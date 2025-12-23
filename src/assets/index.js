@@ -8,13 +8,13 @@ import linkedin from "./linkedin.png";
 import artstation from "./artstation.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import fithub from './fithub.png';
-import assetplus from './assetplus.png';
-import questbit from './questbit.png';
-import matrix from './matrix.png';
+import fithub from "./fithub.png";
+import assetplus from "./assetplus.png";
+import questbit from "./questbit.png";
+import matrix from "./matrix.png";
 
-import java from './tech/java.png';
-import python from './tech/python.png'
+import java from "./tech/java.png";
+import python from "./tech/python.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -28,7 +28,8 @@ import typescript from "./tech/typescript.png";
 
 import bell from "./company/bell.png";
 import ericsson from "./company/ericsson.png";
-
+import autodesk from "./company/autodesk.png";
+import lyft from "./company/lyft.png";
 
 export {
   logo,
@@ -58,5 +59,7 @@ export {
   java,
   python,
   bell,
-  ericsson
+  ericsson,
+  autodesk,
+  lyft,
 };
